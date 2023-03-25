@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="870a0ce9-7748-48de-afb6-36cb25d1a294" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>git@github.com:evgeni-listopad/example-teamcity.git#refs/heads/master</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="TEAMCITY_SSH_KEY" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:bbaaa56d-db61-4ea8-b889-3e42350bfe11" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec" value="refs/heads/*" />
+  <param name="teamcitySshKey" value="id_rsa.txt" />
+  <param name="url" value="git@github.com:evgeni-listopad/example-teamcity.git" />
+  <param name="useAlternates" value="AUTO" />
+  <param name="username" value="git" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
